@@ -22,6 +22,12 @@
         android:title="Satellite Streets Style"/>
 
     <item
+        android:id="@+id/menu_traffic_day"
+        android:title="Traffic Day Style"/>
+    <item
+        android:id="@+id/menu_traffic_night"
+        android:title="Traffic Night Style"/>
+    <item
         android:id="@+id/home"
         android:title="Home"/>
 </menu>

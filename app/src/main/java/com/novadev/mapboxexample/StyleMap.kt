@@ -71,11 +71,20 @@ class StyleMap : AppCompatActivity() {
                mapboxMap.setStyle(Style.SATELLITE_STREETS)
                return true
            }
+           R.id.menu_traffic_day ->{
+               mapboxMap.setStyle(Style.TRAFFIC_DAY)
+               return true
+           }
+           R.id.menu_traffic_night ->{
+               mapboxMap.setStyle(Style.TRAFFIC_NIGHT)
+               return true
+           }
            R.id.home ->{
                finish()
                return true
            }
-           else -> return super.onOptionsItemSelected(item);
+
+           else -> return super.onOptionsItemSelected(item)
        }
     }
 
