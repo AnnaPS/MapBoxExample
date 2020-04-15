@@ -1,13 +1,16 @@
 package com.novadev.mapboxexample
 
 import android.annotation.SuppressLint
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import com.mapbox.android.core.permissions.PermissionsListener
 import com.mapbox.android.core.permissions.PermissionsManager
 import com.mapbox.mapboxsdk.Mapbox
+import com.mapbox.mapboxsdk.camera.CameraPosition
+import com.mapbox.mapboxsdk.camera.CameraUpdateFactory
+import com.mapbox.mapboxsdk.geometry.LatLng
 import com.mapbox.mapboxsdk.location.LocationComponentActivationOptions
 import com.mapbox.mapboxsdk.location.LocationComponentOptions
 import com.mapbox.mapboxsdk.location.modes.CameraMode
@@ -17,7 +20,8 @@ import com.mapbox.mapboxsdk.maps.OnMapReadyCallback
 import com.mapbox.mapboxsdk.maps.Style
 import kotlinx.android.synthetic.main.activity_user_location.*
 
-class UserLocation : AppCompatActivity(), OnMapReadyCallback, PermissionsListener {
+
+class UserLocation : AppCompatActivity(), OnMapReadyCallback, PermissionsListener{
 
     private var permissionsManager: PermissionsManager = PermissionsManager(this)
     private lateinit var mapboxMap: MapboxMap
@@ -29,7 +33,7 @@ class UserLocation : AppCompatActivity(), OnMapReadyCallback, PermissionsListene
     // object or in the same activity which contains the mapview.
         Mapbox.getInstance(
             this,
-            "pk.eyJ1Ijoibm92YWRldjkxIiwiYSI6ImNrOTE2dGpwbDAwYWEzZ3BpcHZoaGZnajgifQ.Cdk4ZiD05gjhC7OldPr1iw"
+            getString(R.string.map_box_auth_key)
         )
 
     // This contains the MapView in XML and needs to be called after the access token is configured.
@@ -37,18 +41,34 @@ class UserLocation : AppCompatActivity(), OnMapReadyCallback, PermissionsListene
 
         mapView.onCreate(savedInstanceState)
         mapView.getMapAsync(this)
+
+    }
+
+
+    private fun getUserLangAndLatAnimate(){
+        // Animate camera
+
+        val position = CameraPosition.Builder()
+            .target(LatLng(mapboxMap.locationComponent.lastKnownLocation!!.latitude,
+                mapboxMap.locationComponent.lastKnownLocation!!.longitude)) // Sets the new camera position
+            .zoom(17.0) // Sets the zoom
+            .bearing(180.0) // Rotate the camera
+            .tilt(30.0) // Set the camera tilt
+            .build() // Creates a CameraPosition from the builder
+
+        mapboxMap.animateCamera(
+            CameraUpdateFactory
+                .newCameraPosition(position), 4000
+        )
     }
 
     override fun onMapReady(mapboxMap: MapboxMap) {
         this.mapboxMap = mapboxMap
-        mapboxMap.setStyle(
-            Style.Builder().fromUri(
-                "mapbox://styles/mapbox/cjerxnqt3cgvp2rmyuxbeqme7"
-            )
-        ) {
-
+        mapboxMap.setStyle(Style.MAPBOX_STREETS) {
             // Map is set up and the style has loaded. Now you can add data or make other map adjustments
             enableLocationComponent(it)
+            getUserLangAndLatAnimate()
+
         }
     }
 
@@ -144,4 +164,6 @@ class UserLocation : AppCompatActivity(), OnMapReadyCallback, PermissionsListene
         super.onLowMemory()
         mapView.onLowMemory()
     }
+
+
 }

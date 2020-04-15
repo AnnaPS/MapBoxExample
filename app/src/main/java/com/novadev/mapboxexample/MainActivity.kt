@@ -20,7 +20,10 @@ class MainActivity : AppCompatActivity(){
     private fun initListeners() {
         btUserLocation.setOnClickListener {
             startActivity(Intent(this, UserLocation::class.java))
-            finish()
+        }
+
+        btUStyleMap.setOnClickListener {
+            startActivity(Intent(this, StyleMap::class.java))
         }
     }
 

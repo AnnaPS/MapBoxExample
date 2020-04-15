@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MapBoxExample</string>
+    <string name="map_box_auth_key">pk.eyJ1Ijoibm92YWRldjkxIiwiYSI6ImNrOTE2dGpwbDAwYWEzZ3BpcHZoaGZnajgifQ.Cdk4ZiD05gjhC7OldPr1iw</string>
 </resources>

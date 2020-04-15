@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_streets"
+        android:title="Street Style"/>
+    <item
+        android:id="@+id/menu_dark"
+        android:title="Dark Style"/>
+    <item
+        android:id="@+id/menu_light"
+        android:title="Light Style"/>
+
+    <item
+        android:id="@+id/menu_outdoors"
+        android:title="Outdoors Style"/>
+    <item
+        android:id="@+id/menu_satellite"
+        android:title="Satellite Style"/>
+    <item
+        android:id="@+id/menu_satellite_streets"
+        android:title="Satellite Streets Style"/>
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"/>
+</menu>

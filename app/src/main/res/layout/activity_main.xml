@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background"
     tools:context=".MainActivity">
 
     <Button
@@ -20,5 +21,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btUStyleMap"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Map Styles"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        android:textColor="@android:color/white"
+        android:background="@color/mapbox_blue"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btUserLocation" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
