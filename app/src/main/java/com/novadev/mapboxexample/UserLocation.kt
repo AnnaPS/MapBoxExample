@@ -87,18 +87,14 @@ class UserLocation : AppCompatActivity(), OnMapReadyCallback, PermissionsListene
 
             // Get an instance of the LocationComponent and then adjust its settings
             mapboxMap.locationComponent.apply {
-
                 // Activate the LocationComponent with options
-                activateLocationComponent(locationComponentActivationOptions)
-
+                this.activateLocationComponent(locationComponentActivationOptions)
                  // Enable to make the LocationComponent visible
-                isLocationComponentEnabled = true
-
+                this.isLocationComponentEnabled = true
                  // Set the LocationComponent's camera mode
-                cameraMode = CameraMode.TRACKING
-
+                this.cameraMode = CameraMode.TRACKING
                 // Set the LocationComponent's render mode
-                renderMode = RenderMode.COMPASS
+                this.renderMode = RenderMode.COMPASS
             }
         } else {
             permissionsManager = PermissionsManager(this)

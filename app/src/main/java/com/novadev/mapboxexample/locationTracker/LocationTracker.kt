@@ -29,7 +29,6 @@ import com.novadev.mapboxexample.R
 import kotlinx.android.synthetic.main.activity_location_tracker.*
 
 
-
 class LocationTracker : AppCompatActivity(),
     OnMapReadyCallback, PermissionsListener,
     OnLocationClickListener, OnCameraTrackingChangedListener {
@@ -74,7 +73,6 @@ class LocationTracker : AppCompatActivity(),
         mapView.getMapAsync {
             mapboxMap.setStyle(Style.MAPBOX_STREETS) {
                 enableLocationComponent(it)
-                getUserLangAndLatAnimate()
                 setModeButtonListeners()
             }
         }
@@ -100,18 +98,17 @@ class LocationTracker : AppCompatActivity(),
             // Get an instance of the LocationComponent and then adjust its settings
             mapboxMap.locationComponent.apply {
                 // Activate the LocationComponent with options
-                activateLocationComponent(locationComponentActivationOptions)
+                this.activateLocationComponent(locationComponentActivationOptions)
                 // Enable to make the LocationComponent visible
-                isLocationComponentEnabled = true
+                this.isLocationComponentEnabled = true
                 // Set the LocationComponent's camera mode
-                cameraMode = cameraMode
+                this.cameraMode = cameraMode
                 // Set the LocationComponent's render mode
-                renderMode = renderMode
-                // Force last location
-                forceLocationUpdate(lastLocation)
+                this.renderMode = renderMode
                 // Set listeners
-                addOnLocationClickListener(this@LocationTracker)
-                addOnCameraTrackingChangedListener(this@LocationTracker)
+                this.addOnLocationClickListener(this@LocationTracker)
+                this.addOnCameraTrackingChangedListener(this@LocationTracker)
+                getUserLangAndLatAnimate()
             }
 
             initLocationEngine()
@@ -216,7 +213,7 @@ class LocationTracker : AppCompatActivity(),
         }
     }
 
-    private fun showModeListDialog(){
+    private fun showModeListDialog() {
         val modes: MutableList<String> = ArrayList()
         modes.add(getString(R.string.normal))
         modes.add(getString(R.string.compass))
@@ -234,7 +231,9 @@ class LocationTracker : AppCompatActivity(),
             button_location_mode.text = selectedMode
             when {
                 selectedMode.contentEquals(getString(R.string.normal)) -> setRendererMode(RenderMode.NORMAL)
-                selectedMode.contentEquals(getString(R.string.compass)) -> setRendererMode(RenderMode.COMPASS)
+                selectedMode.contentEquals(getString(R.string.compass)) -> setRendererMode(
+                    RenderMode.COMPASS
+                )
                 selectedMode.contentEquals(getString(R.string.gps)) -> setRendererMode(RenderMode.GPS)
             }
             listPopup.dismiss()
@@ -243,7 +242,7 @@ class LocationTracker : AppCompatActivity(),
     }
 
 
-    private fun showTrackingListDialog(){
+    private fun showTrackingListDialog() {
         val trackingTypes: MutableList<String> = ArrayList()
         trackingTypes.add(getString(R.string.none))
         trackingTypes.add(getString(R.string.none_compass))
@@ -286,41 +285,52 @@ class LocationTracker : AppCompatActivity(),
 
     }
 
-    private fun setCameraTrackingMode(@CameraMode.Mode mode: Int){
-        mapboxMap.locationComponent.setCameraMode(mode, object: OnLocationCameraTransitionListener{
-            override fun onLocationCameraTransitionFinished(cameraMode: Int) {
-                if (mode != CameraMode.NONE) {
-                    mapboxMap.locationComponent.zoomWhileTracking(15.0, 750, object:
-                    MapboxMap.CancelableCallback{
-                        override fun onFinish() {
-                            mapboxMap.locationComponent.tiltWhileTracking(45.0)
-                        }
-                        override fun onCancel() {}
-                    })
-                }else{
-                    mapboxMap.easeCamera(CameraUpdateFactory.tiltTo(0.0))
+    private fun setCameraTrackingMode(@CameraMode.Mode mode: Int) {
+        mapboxMap.locationComponent.setCameraMode(
+            mode,
+            object : OnLocationCameraTransitionListener {
+                override fun onLocationCameraTransitionFinished(cameraMode: Int) {
+                    if (mode != CameraMode.NONE) {
+                        mapboxMap.locationComponent.zoomWhileTracking(15.0, 750, object :
+                            MapboxMap.CancelableCallback {
+                            override fun onFinish() {
+                                mapboxMap.locationComponent.tiltWhileTracking(45.0)
+                            }
+
+                            override fun onCancel() {}
+                        })
+                    } else {
+                        mapboxMap.easeCamera(CameraUpdateFactory.tiltTo(0.0))
+                    }
                 }
-            }
-            override fun onLocationCameraTransitionCanceled(cameraMode: Int) {}
-        })
+                override fun onLocationCameraTransitionCanceled(cameraMode: Int) {}
+            })
     }
 
-    private fun setModeButtonListeners(){
+    private fun setModeButtonListeners() {
         button_location_mode.setOnClickListener {
             showModeListDialog()
         }
         button_location_tracking.setOnClickListener {
             showTrackingListDialog()
         }
+
+        fabSearch.setOnClickListener {
+            mapboxMap?.getStyle { style ->
+                enableLocationComponent(style)
+            }
+        }
     }
 
-    private fun getUserLangAndLatAnimate(){
+    private fun getUserLangAndLatAnimate() {
         // Animate camera
 
         val position = CameraPosition.Builder()
             .target(
-                LatLng(mapboxMap.locationComponent.lastKnownLocation!!.latitude,
-                    mapboxMap.locationComponent.lastKnownLocation!!.longitude)
+                LatLng(
+                    mapboxMap.locationComponent.lastKnownLocation!!.latitude,
+                    mapboxMap.locationComponent.lastKnownLocation!!.longitude
+                )
             ) // Sets the new camera position
             .zoom(17.0) // Sets the zoom
             .bearing(180.0) // Rotate the camera
@@ -367,7 +377,12 @@ class LocationTracker : AppCompatActivity(),
 
     override fun onDestroy() {
         super.onDestroy()
+        // Prevent leaks
+        if (locationEngine != null) {
+            locationEngine.removeLocationUpdates(callback)
+        }
         mapView.onDestroy()
+
     }
 
     override fun onLowMemory() {
