@@ -3,6 +3,7 @@ package com.novadev.mapboxexample
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.novadev.mapboxexample.locationTracker.LocationTracker
 import kotlinx.android.synthetic.main.activity_main.*
 
 
@@ -24,6 +25,11 @@ class MainActivity : AppCompatActivity(){
 
         btUStyleMap.setOnClickListener {
             startActivity(Intent(this, StyleMap::class.java))
+        }
+
+        btLocationTracker.setOnClickListener {
+            startActivity(Intent(this, LocationTracker::class.java))
+
         }
     }
 

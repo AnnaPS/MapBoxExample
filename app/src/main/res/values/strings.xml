@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">MapBoxExample</string>
     <string name="map_box_auth_key">pk.eyJ1Ijoibm92YWRldjkxIiwiYSI6ImNrOTE2dGpwbDAwYWEzZ3BpcHZoaGZnajgifQ.Cdk4ZiD05gjhC7OldPr1iw</string>
+    <string name="gps">GPS</string>
+    <string name="compass">COMPASS</string>
+    <string name="normal">Normal</string>
+    <string name="none">none</string>
+    <string name="none_compass">none_compass</string>
+    <string name="none_gps">none_gps</string>
+    <string name="tracking">tracking</string>
+    <string name="tracking_compass">tracking_compass</string>
+    <string name="tracking_gps">tracking_gps</string>
+    <string name="tracking_gps_north">tracking_gps_north</string>
 </resources>

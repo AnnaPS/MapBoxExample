@@ -35,10 +35,7 @@ class UserLocation : AppCompatActivity(), OnMapReadyCallback, PermissionsListene
             this,
             getString(R.string.map_box_auth_key)
         )
-
-    // This contains the MapView in XML and needs to be called after the access token is configured.
         setContentView(R.layout.activity_user_location)
-
         mapView.onCreate(savedInstanceState)
         mapView.getMapAsync(this)
 
@@ -77,7 +74,7 @@ class UserLocation : AppCompatActivity(), OnMapReadyCallback, PermissionsListene
    // Check if permissions are enabled and if not request
         if (PermissionsManager.areLocationPermissionsGranted(this)) {
 
-    // Create and customize the LocationComponent's options
+             // Create and customize the LocationComponent's options
             val customLocationComponentOptions = LocationComponentOptions.builder(this)
                 .trackingGesturesManagement(true)
                 .accuracyColor(ContextCompat.getColor(this, R.color.mapBoxGreen))
@@ -88,19 +85,19 @@ class UserLocation : AppCompatActivity(), OnMapReadyCallback, PermissionsListene
                     .locationComponentOptions(customLocationComponentOptions)
                     .build()
 
-        // Get an instance of the LocationComponent and then adjust its settings
+            // Get an instance of the LocationComponent and then adjust its settings
             mapboxMap.locationComponent.apply {
 
                 // Activate the LocationComponent with options
                 activateLocationComponent(locationComponentActivationOptions)
 
-        // Enable to make the LocationComponent visible
+                 // Enable to make the LocationComponent visible
                 isLocationComponentEnabled = true
 
-        // Set the LocationComponent's camera mode
+                 // Set the LocationComponent's camera mode
                 cameraMode = CameraMode.TRACKING
 
-        // Set the LocationComponent's render mode
+                // Set the LocationComponent's render mode
                 renderMode = RenderMode.COMPASS
             }
         } else {
