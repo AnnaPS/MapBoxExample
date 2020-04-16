@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.novadev.mapboxexample.locationTracker.LocationTracker
+import com.novadev.mapboxexample.marker.MarkerActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 
@@ -29,7 +30,10 @@ class MainActivity : AppCompatActivity(){
 
         btLocationTracker.setOnClickListener {
             startActivity(Intent(this, LocationTracker::class.java))
+        }
 
+        btMarker.setOnClickListener {
+            startActivity(Intent(this, MarkerActivity::class.java))
         }
     }
 
