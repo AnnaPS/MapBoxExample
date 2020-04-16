@@ -11,4 +11,5 @@
     <string name="tracking_compass">tracking_compass</string>
     <string name="tracking_gps">tracking_gps</string>
     <string name="tracking_gps_north">tracking_gps_north</string>
+    <string name="capital">capital</string>
 </resources>

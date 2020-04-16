@@ -4,7 +4,9 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.novadev.mapboxexample.locationTracker.LocationTracker
+import com.novadev.mapboxexample.marker.InfoWindowSymbolLayerActivity
 import com.novadev.mapboxexample.marker.MarkerActivity
+import com.novadev.mapboxexample.marker.MarkerGeojson
 import kotlinx.android.synthetic.main.activity_main.*
 
 
@@ -33,7 +35,7 @@ class MainActivity : AppCompatActivity(){
         }
 
         btMarker.setOnClickListener {
-            startActivity(Intent(this, MarkerActivity::class.java))
+            startActivity(Intent(this, MarkerGeojson::class.java))
         }
     }
 

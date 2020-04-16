@@ -1,0 +1,551 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "CLASE-VIAL": "CALLE",
+        "ORIENTACION": "",
+        "HORARIO": "De lunes a sábado, de 10 a 14 horas  y de 16:30 a 20:30 horasEn el mes de agosto, de lunes a viernes, de 10 a 14 horas y de 16:30 a 20:30 horas",
+        "BARRIO": "CANILLAS",
+        "NUM": 2,
+        "LOCALIDAD": "MADRID",
+        "DESCRIPCION-ENTIDAD": "El Espacio de Igualdad Carme Chacón forma parte de la red de Espacios de Igualdad del Ayuntamiento de Madrid, servicio público orientado a concienciar sobre la necesidad de construir y generar una sociedad en igualdad con la participación de mujeres y hombres, impulsando el empoderamiento de las mujeres para lograr una posición de equidad social.",
+        "ACCESIBILIDAD": 1,
+        "NOMBRE": "Espacio de Igualdad Carme Chacón",
+        "NOMBRE-VIA": "MATAPOZUELOS",
+        "COORDENADA-X": 444876,
+        "COORDENADA-Y": 4479190,
+        "TIPO-NUM": "V",
+        "DESCRIPCION": "Accesibilidad total.  Acceso:            - Derivado de centros de Servicios Sociales, asociaciones y cualquier recurso municipal           - Directamente Beneficiarias:  -  Mujeres  - Público en general en actividades abiertas (conferencias, debates, etc...)",
+        "PROVINCIA": "MADRID",
+        "EQUIPAMIENTO": "Escuela de empoderamiento con servicios de atención individual a mujeres en el area psicológica, jurídica y desarrollo profesional. Actividades y talleres grupales dirigidos a mujeres. Escuela de igualdad con actividades y talleres dirigidos a toda la ciudadanía, a profesionales y entidades para formar, concienciar, sensibilizar e irradiar la transformación de la cultura de desigualdad. Disponibilidad de aulas para talleres y/o actividades (sujeto a la disponibilidad en función de la programación del Espacio de Igualdad). Facebook del Espacio de Igualdad Carme Chacón  Twitter del Espacio de Igualdad Carme Chacón",
+        "TELEFONO": "91 588 39 64",
+        "TIPO": "/contenido/entidadesYorganismos/CentrosAtencionSocial",
+        "PLANTA": "",
+        "FIELD31": " ",
+        "DISTRITO": "HORTALEZA",
+        "CONTENT-URL": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a3ab855a64315610VgnVCM2000001f4a900aRCRD",
+        "PK": 10759229,
+        "TRANSPORTE": "Metro: EsperanzaAutobús: 73",
+        "EMAIL": "carmechacon2@madrid.es",
+        "FAX": "",
+        "ESCALERAS": "",
+        "CODIGO-POSTAL": 28043,
+        "PUERTA": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -3.650171,
+          40.461556
+        ],
+        "type": "Point"
+      },
+      "id": "2c648467d95981c8d2b661b3f54fef78"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CLASE-VIAL": "CALLE",
+        "ORIENTACION": "",
+        "HORARIO": "Lunes a viernes, de 10 a 14 horas y de 16:30 a 20:30 horas. Sábados, de 10:30 a 14:30 horas y de 16 a 20 horas. En el mes de agosto, de lunes a viernes, de 10 a 14 horas y de 16:30 a 20:30 horas.",
+        "BARRIO": "VALVERDE",
+        "NUM": 1,
+        "LOCALIDAD": "MADRID",
+        "DESCRIPCION-ENTIDAD": "El Espacio de Igualdad Lucrecia Pérez forma parte de la red de Espacios de Igualdad del Ayuntamiento de Madrid, servicio público orientado a concienciar sobre la necesidad de construir y generar una sociedad en igualdad con la participación de mujeres y hombres, impulsando el empoderamiento de las mujeres para lograr una posición de equidad social.",
+        "ACCESIBILIDAD": 1,
+        "NOMBRE": "Espacio de Igualdad Lucrecia Pérez",
+        "NOMBRE-VIA": "MANRESA",
+        "COORDENADA-X": 441386,
+        "COORDENADA-Y": 4482508,
+        "TIPO-NUM": "V",
+        "DESCRIPCION": "Acceso:            - Derivado de Centros de Servicios Sociales, asociaciones y cualquier recurso municipal           - Directamente Beneficiarias:  -  Mujeres  - Público en general en actividades abiertas (conferencias, debates, etc...)",
+        "PROVINCIA": "MADRID",
+        "EQUIPAMIENTO": "Escuela de empoderamiento con servicios de atención individual a mujeres en el area psicológica, jurídica y desarrollo profesional. Actividades y talleres grupales dirigidos a mujeres. Escuela de igualdad con actividades y talleres dirigidos a toda la ciudadanía, a profesionales y entidades para formar, concienciar, sensibilizar e irradiar la transformación de la cultura de desigualdad. Disponibilidad de aulas para talleres y/o actividades (sujeto a la disponibilidad en función de la programación del Espacio de Igualdad). Página Facebook del Espacio de Igualdad Lucrecia Pérez",
+        "TELEFONO": "915883957",
+        "TIPO": "/contenido/entidadesYorganismos/CentrosAtencionSocial",
+        "PLANTA": "",
+        "FIELD31": " ",
+        "DISTRITO": "FUENCARRAL-EL PARDO",
+        "CONTENT-URL": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7b6882025c4b2610VgnVCM2000001f4a900aRCRD",
+        "PK": 10681863,
+        "TRANSPORTE": "Metro: Fuencarral Bus: 66, 124 y 137",
+        "EMAIL": "lucreciaperez3@madrid.es",
+        "FAX": "",
+        "ESCALERAS": "",
+        "CODIGO-POSTAL": 28034,
+        "PUERTA": "B"
+      },
+      "geometry": {
+        "coordinates": [
+          -3.691637,
+          40.491206
+        ],
+        "type": "Point"
+      },
+      "id": "40279e6d5e39ebcd1b157ad2f567fe93"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CLASE-VIAL": "CALLE",
+        "ORIENTACION": "",
+        "HORARIO": "De lunes a viernes de 10 a 14 horas y de 16,30 a 20,30 horas. Para asesoramiento jurídico, atención psicosocial, acogida o desarrollo profesional debe solicitar  cita previa .",
+        "BARRIO": "GAZTAMBIDE",
+        "NUM": 44,
+        "LOCALIDAD": "MADRID",
+        "DESCRIPCION-ENTIDAD": "Prestaciones  del Espacio de Igualdad María Zambrano:- Acogida- Atención Psicológica- Asesoramiento jurídico- Atención para el desarrollo profesionalSe podrá acceder a las prestaciones ofrecidas en el Espacio de Igualdad pidiendo cita previa, bien directamente o por derivación de otros recursos municipales (como son los centros de salud, centros culturales, centros de servicios sociales&amp;hellip;) y entidades públicas o privadas.Puede solicitar cita previa a través de los siguientes canales de Línea Madrid:  En línea:  accediendo al Servicio de Cita Previa, seleccionando en el Tipo de Servicio 'Espacios de Igualdad' y la Gestión deseada  Telefónica: a través del 010 o del 915 298 210 (consulte coste de la llamada en la página de información del 010)  Presencial:  en las Oficinas de Atención a la Ciudadanía",
+        "ACCESIBILIDAD": 1,
+        "NOMBRE": "Espacio de Igualdad María Zambrano",
+        "NOMBRE-VIA": "ANDRES MELLADO",
+        "COORDENADA-X": 439412,
+        "COORDENADA-Y": 4476170,
+        "TIPO-NUM": "V",
+        "DESCRIPCION": "Acceso - Derivado de Centros de Servicios Sociales, asociaciones y cualquier recurso municipal.- Directamente, con cita previa. Beneficiarios/as - Mujeres.- Público en general en actividades abiertas (conferencias, debates, etc.)El Centro dispone de servicio de ludoteca",
+        "PROVINCIA": "MADRID",
+        "EQUIPAMIENTO": "Atención individual: psicológica, jurídica, desarrollo profesional y área de acogida.Actividades grupales: conferencias y talleres.Cesión de EspaciosServicio de Ludoteca Página Facebook del Espacio de Igualdad María Zambrano  Perfil Twitter del Espacio de Igualdad María Zambrano",
+        "TELEFONO": "91 543 03 85",
+        "TIPO": "/contenido/entidadesYorganismos/CentrosAtencionSocial",
+        "PLANTA": "",
+        "FIELD31": " ",
+        "DISTRITO": "CHAMBERI",
+        "CONTENT-URL": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=306b89e2c9e5d010VgnVCM1000000b205a0aRCRD",
+        "PK": 185268,
+        "TRANSPORTE": "Metro: MoncloaBus: 2, 16, 61 y 202",
+        "EMAIL": "caimujermzad@madrid.es",
+        "FAX": "91 544 03 04",
+        "ESCALERAS": "",
+        "CODIGO-POSTAL": 28015,
+        "PUERTA": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -3.714335,
+          40.433958
+        ],
+        "type": "Point"
+      },
+      "id": "43e7adedc2b9fd3e4403da82a07f3850"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CLASE-VIAL": "CALLE",
+        "ORIENTACION": "",
+        "HORARIO": "De lunes a viernes de 10 a 14 horas y de 16 a 20 horas. Para asesoramiento jurídico, atención psicosocial o desarrollo profesional debe solicitar  cita previa .",
+        "BARRIO": "BELLAS VISTAS",
+        "NUM": 133,
+        "LOCALIDAD": "MADRID",
+        "DESCRIPCION-ENTIDAD": "Prestaciones  del Espacio de Igualdad Hermanas Mirabal:- Atención Psicológica- Asesoramiento jurídico- Atención para el desarrollo profesionalSe podrá acceder a las prestaciones ofrecidas en el Espacio de Igualdad pidiendo cita previa, bien directamente o por derivación de otros recursos municipales (como son los centros de salud, centros culturales, centros de servicios sociales&amp;hellip;) y entidades públicas o privadas.Puede solicitar cita previa a través de los siguientes canales de Línea Madrid:  En línea:  accediendo al Servicio de Cita Previa, seleccionando en el Tipo de Servicio 'Espacios de Igualdad' y la Gestión deseada  Telefónica: a través del 010 o del 915 298 210 (consulte coste de la llamada en la página de información del 010)  Presencial:  en las Oficinas de Atención a la Ciudadanía",
+        "ACCESIBILIDAD": 1,
+        "NOMBRE": "Espacio de Igualdad Hermanas Mirabal",
+        "NOMBRE-VIA": "BRAVO MURILLO",
+        "COORDENADA-X": 440328,
+        "COORDENADA-Y": 4477957,
+        "TIPO-NUM": "V",
+        "DESCRIPCION": "Prestaciones:Atención PsicosocialAtención jurídicaAtención sociolaboral AccesoDerivación desde Centros de Servicios Sociales, Asociaciones y cualquier recurso municipalDirectamente, previa cita",
+        "PROVINCIA": "MADRID",
+        "EQUIPAMIENTO": "Asesoramiento y orientación jurídicaApoyo y atención psicológicaDesarrollo profesionalServicio de ludotecaDisponibilidad de aulas Página Facebook del Espacio de Igualdad Hermanas Mirabal  Perfil Twitter del Espacio de Igualdad Hermanas Mirabal",
+        "TELEFONO": "915 345 365 / 915 336 318",
+        "TIPO": "/contenido/entidadesYorganismos/CentrosAtencionSocial",
+        "PLANTA": "",
+        "FIELD31": " ",
+        "DISTRITO": "TETUAN",
+        "CONTENT-URL": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=689c8c0000c9a310VgnVCM2000000c205a0aRCRD",
+        "PK": 6621710,
+        "TRANSPORTE": "Metro: AlvaradoBus: 3, 64, 66, 124, 128, N22, L1",
+        "EMAIL": "caimujerhm3@madrid.es",
+        "FAX": "",
+        "ESCALERAS": "",
+        "CODIGO-POSTAL": 28039,
+        "PUERTA": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -3.703704,
+          40.450122
+        ],
+        "type": "Point"
+      },
+      "id": "499d477e96b7bd123431d5319f2edb7f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CLASE-VIAL": "CALLE",
+        "ORIENTACION": "",
+        "HORARIO": "Lunes a sábado, de 10 a 14 horas  y de 16:30 a 20:30 horasEn el mes de agosto, de lunes a viernes, de 10 a 14 horas y de 16:30 a 20:30 horas.",
+        "BARRIO": "ADELFAS",
+        "NUM": 31,
+        "LOCALIDAD": "MADRID",
+        "DESCRIPCION-ENTIDAD": "El Espacio de Igualdad Elena Arnedo forma parte de la red de Espacios de Igualdad del Ayuntamiento de Madrid, servicio público orientado a concienciar sobre la necesidad de construir y generar una sociedad en igualdad con la participación de mujeres y hombres, impulsando el empoderamiento de las mujeres para lograr una posición de equidad social.",
+        "ACCESIBILIDAD": 1,
+        "NOMBRE": "Espacio de Igualdad Elena Arnedo Soriano",
+        "NOMBRE-VIA": "ARREGUI Y ARUEJ",
+        "COORDENADA-X": 443307,
+        "COORDENADA-Y": 4472652,
+        "TIPO-NUM": "V",
+        "DESCRIPCION": "Accesibilidad total. Acceso:            - Derivado de Centros de Servicios Sociales, Asociaciones y cualquier recurso municipal           - Directamente Beneficiarias:  -  Mujeres  - Público en general en actividades abiertas (conferencias, debates, etc...)",
+        "PROVINCIA": "MADRID",
+        "EQUIPAMIENTO": "Escuela de empoderamiento con servicios de atención individual a mujeres en el area psicológica, jurídica y desarrollo profesional. Actividades y talleres grupales dirigidos a mujeres. Escuela de igualdad con actividades y talleres dirigidos a toda la ciudadanía, a profesionales y entidades para formar, concienciar, sensibilizar e irradiar la transformación de la cultura de desigualdad. Disponibilidad de aulas para talleres y/o actividades (sujeto a la disponibilidad en función de la programación del Espacio de Igualdad). Página Facebook del Espacio de Igualdad Elena Arnedo Soriano",
+        "TELEFONO": "914 802 508",
+        "TIPO": "/contenido/entidadesYorganismos/CentrosAtencionSocial",
+        "PLANTA": "",
+        "FIELD31": " ",
+        "DISTRITO": "RETIRO",
+        "CONTENT-URL": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=cb3655d1b6742610VgnVCM1000001d4a900aRCRD",
+        "PK": 10662957,
+        "TRANSPORTE": "Metro: Pacífico y Puente de Vallecas (Línea 1), Conde Casal (Línea 6)Bus: 113 y 148",
+        "EMAIL": "elenaarnedo3@madrid.es",
+        "FAX": "",
+        "ESCALERAS": "",
+        "CODIGO-POSTAL": 28007,
+        "PUERTA": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -3.668092,
+          40.402549
+        ],
+        "type": "Point"
+      },
+      "id": "4f1cccd7d32c41090ef85874021b5471"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CLASE-VIAL": "CALLE",
+        "ORIENTACION": "",
+        "HORARIO": "De lunes a viernes, de 9 a 14 horas y de 15 a 18 horas",
+        "BARRIO": "SAN ANDRES",
+        "NUM": 34,
+        "LOCALIDAD": "MADRID",
+        "DESCRIPCION-ENTIDAD": "El Espacio de Igualdad Dulce Chacón forma parte de la red de Espacios de Igualdad del Ayuntamiento de Madrid, servicio público orientado a concienciar sobre la necesidad de construir y generar una sociedad en igualdad con la participación de mujeres y hombres, impulsando el empoderamiento de las mujeres para lograr una posición de equidad social.",
+        "ACCESIBILIDAD": 0,
+        "NOMBRE": "Espacio de Igualdad Dulce Chacón",
+        "NOMBRE-VIA": "MAREAS",
+        "COORDENADA-X": 439286,
+        "COORDENADA-Y": 4466819,
+        "TIPO-NUM": "V",
+        "DESCRIPCION": "Acceso: Derivado de Centros de Servicios Sociales, Asociaciones y cualquier recurso municipalDirectamente, previa cita por teléfono Beneficiarias: MujeresPoblación general en actividades abiertas",
+        "PROVINCIA": "MADRID",
+        "EQUIPAMIENTO": "Asesoramiento y orientación jurídicaApoyo y atención psicológicaDesarrollo profesional Página Facebook del Espacio de Igualdad Dulce Chacón  Perfil Twitter del Espacio de Igualdad Dulce Chacón",
+        "TELEFONO": "917 952 421",
+        "TIPO": "/contenido/entidadesYorganismos/CentrosAtencionSocial",
+        "PLANTA": "",
+        "FIELD31": " ",
+        "DISTRITO": "VILLAVERDE",
+        "CONTENT-URL": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=82986a073fed0110VgnVCM1000000b205a0aRCRD",
+        "PK": 4525098,
+        "TRANSPORTE": "Bus: 76.",
+        "EMAIL": "centrodulcechacon@gmail.com",
+        "FAX": "917 952 421",
+        "ESCALERAS": "",
+        "CODIGO-POSTAL": 28021,
+        "PUERTA": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -3.714941,
+          40.34971
+        ],
+        "type": "Point"
+      },
+      "id": "515cbe7a4fbada3495b96f35d26d7013"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CLASE-VIAL": "0",
+        "ORIENTACION": "",
+        "HORARIO": "Servicio ininterrumpido 24 horas los 365 días del año",
+        "BARRIO": "",
+        "NUM": null,
+        "LOCALIDAD": "",
+        "DESCRIPCION-ENTIDAD": "Servicio de atención especializada a mujeres que hayan vivido un intento o una situación de violencia sexual reciente o pasada, o que tengan sospecha de haberla sufrido. El servicio cuenta con un equipo profesional especializado, de carácter multidisciplinar, integrado por profesionales del ámbito social, psicológico y jurídico, además de soporte administrativo y servicio de mediación intercultural.",
+        "ACCESIBILIDAD": 1,
+        "NOMBRE": "Centro de crisis 24 horas para la atención a mujeres víctimas de violencia sexual",
+        "NOMBRE-VIA": "",
+        "COORDENADA-X": null,
+        "COORDENADA-Y": null,
+        "TIPO-NUM": "",
+        "DESCRIPCION": "Acceso:Por iniciativa de la mujer, sin necesidad de concertar cita previaPor derivación de cualquier recurso público o privadoAdaptado a personas con movilidad reducida y/o en silla de ruedas",
+        "PROVINCIA": "",
+        "EQUIPAMIENTO": "Acogida y atención inmediata de emergencia en casos de violencia sexualInformación telefónica y presencial (24 h) sobre alternativas y recursos existentes, así como sobre los derechos que asisten a las víctimas de violencia sexual y la forma de ejercerlosAtención integral, acompañamiento emocional y asesoramiento para el proceso de toma de decisionesAcompañamiento físico a recursos sanitarios y dependencias policiales, orientado a garantizar el ejercicio de los derechos de la víctima de violencia sexual y evitar su revictimizaciónAtención a las demandas del entorno familiar de la víctima para orientar el apoyo y acompañamiento que puedan prestarleInformación y concienciación a la población en general sobre las causas, manifestaciones y consecuencias de la violencia sexual, así como de los procesos y recursos de atención reparadora existentes",
+        "TELEFONO": "900 869 947",
+        "TIPO": "/contenido/entidadesYorganismos/CentrosAtencionSocial",
+        "PLANTA": "",
+        "FIELD31": " ",
+        "DISTRITO": "DISTRITO",
+        "CONTENT-URL": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=057d98993e81f610VgnVCM2000001f4a900aRCRD",
+        "PK": 11089192,
+        "TRANSPORTE": "",
+        "EMAIL": "centrodecrisis@fundacion-aspacia.org",
+        "FAX": "",
+        "ESCALERAS": "",
+        "CODIGO-POSTAL": null,
+        "PUERTA": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -3.659437,
+          40.393698
+        ],
+        "type": "Point"
+      },
+      "id": "582e6a15b0f5d1d43e1f443683b5e425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CLASE-VIAL": "PLAZA",
+        "ORIENTACION": "",
+        "HORARIO": "De lunes a sábado, de 10 a 14 horas  y de 16:30 a 20:30 horasEn el mes de agosto, de lunes a viernes, de 8 a 16 horas. Los sábados permanecerá cerrado.",
+        "BARRIO": "CANILLEJAS",
+        "NUM": 1,
+        "LOCALIDAD": "MADRID",
+        "DESCRIPCION-ENTIDAD": "El Espacio de Igualdad Lucía Sánchez Saornil forma parte de la red de Espacios de Igualdad del Ayuntamiento de Madrid, servicio público orientado a concienciar sobre la necesidad de construir y generar una sociedad en igualdad con la participación de mujeres y hombres, impulsando el empoderamiento de las mujeres para lograr una posición de equidad social.",
+        "ACCESIBILIDAD": 2,
+        "NOMBRE": "Espacio de Igualdad Lucía Sánchez Saornil",
+        "NOMBRE-VIA": "EURIPIDES",
+        "COORDENADA-X": 448534,
+        "COORDENADA-Y": 4477771,
+        "TIPO-NUM": "V",
+        "DESCRIPCION": "Accesibilidad parcial.  Acceso:            - Derivado de Centros de Servicios Sociales, asociaciones y cualquier recurso municipal           - Directamente Beneficiarias:  -  Mujeres  - Público en general en actividades abiertas (conferencias, debates, etc...)",
+        "PROVINCIA": "MADRID",
+        "EQUIPAMIENTO": "Escuela de empoderamiento con servicios de atención individual a mujeres en el area psicológica, jurídica y desarrollo profesional. Actividades y talleres grupales dirigidos a mujeres. Escuela de igualdad con actividades y talleres dirigidos a toda la ciudadanía, a profesionales y entidades para formar, concienciar, sensibilizar e irradiar la transformación de la cultura de desigualdad. Disponibilidad de aulas para talleres y/o actividades (sujeto a la disponibilidad en función de la programación del Espacio de Igualdad).  Página Facebook del Espacio de Igualdad Lucía Sánchez Saornil  Perfil Twitter del Espacio de Igualdad Lucía Sánchez Saornil",
+        "TELEFONO": "91 480 16 56",
+        "TIPO": "/contenido/entidadesYorganismos/CentrosAtencionSocial",
+        "PLANTA": "",
+        "FIELD31": " ",
+        "DISTRITO": "SAN BLAS-CANILLEJAS",
+        "CONTENT-URL": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=1f6bb3c7035da610VgnVCM1000001d4a900aRCRD",
+        "PK": 10953750,
+        "TRANSPORTE": "Bus: 77, 140, 165 y 200Metro: Canillejas",
+        "EMAIL": "luciassaornil1@madrid.es",
+        "FAX": "",
+        "ESCALERAS": "bloque 422",
+        "CODIGO-POSTAL": 28022,
+        "PUERTA": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -3.606916,
+          40.449003
+        ],
+        "type": "Point"
+      },
+      "id": "5ae3f2ca7198f5616b50a28df3b926c5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CLASE-VIAL": "CALLE",
+        "ORIENTACION": "",
+        "HORARIO": "Lunes a viernes, de 10 a 19 horas.",
+        "BARRIO": "NUMANCIA",
+        "NUM": 3,
+        "LOCALIDAD": "Madrid",
+        "DESCRIPCION-ENTIDAD": "Dispositivo municipal de atención integral a mujeres víctimas de trata con fines de explotación sexual y en contextos de prostitución. Junto a la Unidad Móvil de Atención Integral (teléfono 671 060 292; correo electrónico arenal.movil@trabe.org.es) y los alojamientos protegidos, forma parte de la red municipal de dispositivos de respuesta especializada.",
+        "ACCESIBILIDAD": 1,
+        "NOMBRE": "Concepción Arenal. Centro de atención a mujeres víctimas de trata y en contextos de prostitución",
+        "NOMBRE-VIA": "ROGELIO FOLGUERAS",
+        "COORDENADA-X": 444035,
+        "COORDENADA-Y": 4471664,
+        "TIPO-NUM": "V",
+        "DESCRIPCION": "Acceso - Directamente, por propia iniciativa de las mujeres víctimas de trata y otros abusos de derechos humanos en contextos de prostitución- Derivadas por Centros de Servicios Sociales, Asociaciones y Organizaciones especializadas  y/o cualquier otro recurso/servicio público o del tejido social de la ciudad de Madrid.",
+        "PROVINCIA": "Madrid",
+        "EQUIPAMIENTO": "Atención psicológicaAtención socialAsesoria jurídicaMejora de la empleabilidad y apoyo al emprendimiento",
+        "TELEFONO": "914 680 853",
+        "TIPO": "/contenido/entidadesYorganismos/CentrosAtencionSocialMujeres/ViolenciaGenero",
+        "PLANTA": "",
+        "FIELD31": " ",
+        "DISTRITO": "PUENTE DE VALLECAS",
+        "CONTENT-URL": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=26c2a65f73424210VgnVCM1000000b205a0aRCRD",
+        "PK": 5433767,
+        "TRANSPORTE": "",
+        "EMAIL": "arenal@trabe.org.es",
+        "FAX": "",
+        "ESCALERAS": "",
+        "CODIGO-POSTAL": 28038,
+        "PUERTA": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -3.659437,
+          40.393698
+        ],
+        "type": "Point"
+      },
+      "id": "81dc0e3ccea3be91318da1a1a3852945"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CLASE-VIAL": "CALLE",
+        "ORIENTACION": "",
+        "HORARIO": "De lunes a viernes, de 10 a 14 horas y de 16:30 a 20:30 horas. Para asesoramiento jurídico, atención psicosocial, acogida o desarrollo profesional debe solicitar  cita previa .",
+        "BARRIO": "SAN ISIDRO",
+        "NUM": 8,
+        "LOCALIDAD": "MADRID",
+        "DESCRIPCION-ENTIDAD": "Prestaciones  del Espacio de Igualdad María de Maeztu:- Acogida- Atención Psicológica- Asesoramiento jurídico- Atención para el desarrollo profesionalSe podrá acceder a las prestaciones ofrecidas en el Espacio de Igualdad pidiendo cita previa, bien directamente o por derivación de otros recursos municipales (como son los centros de salud, centros culturales, centros de servicios sociales&amp;hellip;) y entidades públicas o privadas.Puede solicitar cita previa a través de los siguientes canales de Línea Madrid:  En línea:  accediendo al Servicio de Cita Previa, seleccionando en el Tipo de Servicio 'Espacios de Igualdad' y la Gestión deseada  Telefónica: a través del 010 o del 915 298 210 (consulte coste de la llamada en la página de información del 010)  Presencial:  en las Oficinas de Atención a la Ciudadanía",
+        "ACCESIBILIDAD": 1,
+        "NOMBRE": "Espacio de Igualdad María de Maeztu",
+        "NOMBRE-VIA": "COMANDANTE FONTANES",
+        "COORDENADA-X": 438746,
+        "COORDENADA-Y": 4471883,
+        "TIPO-NUM": "V",
+        "DESCRIPCION": "Acceso - Derivado de Centros de Servicios Sociales, asociaciones y cualquier recurso municipal- Directamente, con cita previa. Beneficiarios/as- Mujeres- Público en general en actividades abiertas (conferencias, debates, etc.)",
+        "PROVINCIA": "MADRID",
+        "EQUIPAMIENTO": "Atención individual: psicológica, jurídica, desarrollo profesional y área de acogida.Actividades grupales: conferencias y talleres.Servicio de ludoteca.Cesión de espacios Página Facebook del Espacio de Igualdad María de Maeztu  Perfil Twitter del Espacio de Igualdad María de Maeztu",
+        "TELEFONO": "914 281 185",
+        "TIPO": "/contenido/entidadesYorganismos/CentrosAtencionSocial",
+        "PLANTA": "",
+        "FIELD31": " ",
+        "DISTRITO": "CARABANCHEL",
+        "CONTENT-URL": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=63431203d9e85110VgnVCM1000000b205a0aRCRD",
+        "PK": 4664906,
+        "TRANSPORTE": "Metro: Urgel Bus: 34, 35, 118 y 119",
+        "EMAIL": "caimujermm@madrid.es",
+        "FAX": "",
+        "ESCALERAS": "",
+        "CODIGO-POSTAL": 28019,
+        "PUERTA": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -3.721939,
+          40.39528
+        ],
+        "type": "Point"
+      },
+      "id": "97619f1eae501c1292ada657d9d7e086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CLASE-VIAL": "CALLE",
+        "ORIENTACION": "",
+        "HORARIO": "Lunes a viernes de 10 a 14 horas y de 16,30 a 20,30 horas.En el mes de agosto permanecerá cerrado.Para asesoramiento jurídico, atención psicosocial o desarrollo profesional debe solicitar cita previa.",
+        "BARRIO": "LOS ROSALES",
+        "NUM": 12,
+        "LOCALIDAD": "MADRID",
+        "DESCRIPCION-ENTIDAD": "El Espacio de Igualdad Clara Campoamor forma parte de la red de Espacios de Igualdad del Ayuntamiento de Madrid, servicio público orientado a concienciar sobre la necesidad de construir y generar una sociedad en igualdad con la participación de mujeres y hombres, impulsando el empoderamiento de las mujeres para lograr una posición de equidad social.   Prestaciones  del Espacio de Igualdad Clara Campoamor:- Atención Psicológica- Asesoramiento jurídico- Atención para el desarrollo profesionalSe podrá acceder a las prestaciones ofrecidas en el Espacio de Igualdad pidiendo cita previa, bien directamente o por derivación de otros recursos municipales (como son los centros de salud, centros culturales, centros de servicios sociales&amp;hellip;) y entidades públicas o privadas.Puede solicitar cita previa a través de los siguientes canales de Línea Madrid:  En línea:  accediendo al Servicio de Cita Previa, seleccionando en el Tipo de Servicio 'Espacios de Igualdad' y la Gestión deseada  Telefónica: a través del 010 o del 915 298 210 (consulte coste de la llamada en la página de información del 010)  Presencial:  en las Oficinas de Atención a la Ciudadanía",
+        "ACCESIBILIDAD": 1,
+        "NOMBRE": "Espacio de Igualdad Clara Campoamor",
+        "NOMBRE-VIA": "MARIA MARTINEZ OVIOL",
+        "COORDENADA-X": 441277,
+        "COORDENADA-Y": 4466932,
+        "TIPO-NUM": "V",
+        "DESCRIPCION": "Acceso:            - Derivado de Centros de Servicios Sociales, Asociaciones y cualquier recurso municipal           - Directamente, con cita previa. Beneficiarias:  -  Mujeres - Público en general en actividades abiertas (conferencias, debates, etc...)",
+        "PROVINCIA": "MADRID",
+        "EQUIPAMIENTO": "Actividades comunitariasActividades grupalesAsesoramiento y orientación jurídicaApoyo y atención psicológicaDesarrollo profesionalFormación en género para profesionales y entidades Página Facebook del Espacio de Igualdad Clara Campoamor  Perfil Twitter del Espacio de Igualdad Clara Campoamor",
+        "TELEFONO": "917 109 713",
+        "TIPO": "/contenido/entidadesYorganismos/CentrosAtencionSocial",
+        "PLANTA": "",
+        "FIELD31": " ",
+        "DISTRITO": "VILLAVERDE",
+        "CONTENT-URL": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8b8896d2d8ed0110VgnVCM1000000b205a0aRCRD",
+        "PK": 4524868,
+        "TRANSPORTE": "Metro: Villaverde Bajo, El Cruce (Línea 3)Bus: 18, 59, 79, 85, 116, 123, 411, 412, 414, 415, 419, 421, 422, 423, 424, 426, 427, 429, 432 y 447.",
+        "EMAIL": "caimujercc@madrid.es",
+        "FAX": "",
+        "ESCALERAS": "",
+        "CODIGO-POSTAL": 28021,
+        "PUERTA": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -3.691508,
+          40.350871
+        ],
+        "type": "Point"
+      },
+      "id": "9be00b09c7373869249322071826ad2a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CLASE-VIAL": "CALLE",
+        "ORIENTACION": "",
+        "HORARIO": "De lunes a viernes de 10 a 14 horas y de 16.30 a 20:30 horas.Los sábados de 10 a 14 horas y de 16 a 20 horasEn el mes de agosto los sábados no se ofrece servicios",
+        "BARRIO": "NUEVA ESPAÑA",
+        "NUM": 8,
+        "LOCALIDAD": "MADRID",
+        "DESCRIPCION-ENTIDAD": "El Espacio de Igualdad Nieves Torres forma parte de la red de Espacios de Igualdad del Ayuntamiento de Madrid, servicio público orientado a concienciar sobre la necesidad de construir y generar una sociedad en igualdad con la participación de mujeres y hombres, impulsando el empoderamiento de las mujeres para lograr una posición de equidad social.",
+        "ACCESIBILIDAD": 1,
+        "NOMBRE": "Espacio de Igualdad Nieves Torres",
+        "NOMBRE-VIA": "ENRIQUE JARDIEL PONCELA",
+        "COORDENADA-X": 443189,
+        "COORDENADA-Y": 4479129,
+        "TIPO-NUM": "V",
+        "DESCRIPCION": "Accesibilidad total.  Acceso:            - Derivado de centros de Servicios Sociales, asociaciones y cualquier recurso municipal           - Directamente Beneficiarias:  -  Mujeres  - Público en general en actividades abiertas (conferencias, debates, etc...)",
+        "PROVINCIA": "MADRID",
+        "EQUIPAMIENTO": "Escuela de empoderamiento con servicios de atención individual a mujeres en el area psicológica, jurídica y desarrollo profesional. Actividades y talleres grupales dirigidos a mujeres. Escuela de igualdad con actividades y talleres dirigidos a toda la ciudadanía, a profesionales y entidades para formar, concienciar, sensibilizar e irradiar la transformación de la cultura de desigualdad. Disponibilidad de aulas para talleres y/o actividades (sujeto a la disponibilidad en función de la programación del Espacio de Igualdad). Facebook del Espacio de Igualdad Nieves Torres  Twitter del Espacio de Igualdad Nieves Torres",
+        "TELEFONO": "91 513 38 47",
+        "TIPO": "/contenido/entidadesYorganismos/CentrosAtencionSocial",
+        "PLANTA": "2ª planta",
+        "FIELD31": " ",
+        "DISTRITO": "CHAMARTIN",
+        "CONTENT-URL": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=e58c855a64315610VgnVCM2000001f4a900aRCRD",
+        "PK": 10759244,
+        "TRANSPORTE": "Metro: Pío XIIAutobús: 7, 11, 40, 52 y 87",
+        "EMAIL": "nievestorres5@madrid.es",
+        "FAX": "",
+        "ESCALERAS": "",
+        "CODIGO-POSTAL": 28016,
+        "PUERTA": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -3.670068,
+          40.460889
+        ],
+        "type": "Point"
+      },
+      "id": "b132bcc8768d4e7d8fce439488f8ca8a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CLASE-VIAL": "CALLE",
+        "ORIENTACION": "",
+        "HORARIO": "De lunes a sábado, de 9:30 a 14:30 horas  y de 16:30 a 19:30 horasEn el mes de agosto, de lunes a viernes en el mismo horario. Los sábados permanecerá cerrado.",
+        "BARRIO": "ORCASITAS",
+        "NUM": 14,
+        "LOCALIDAD": "MADRID",
+        "DESCRIPCION-ENTIDAD": "El Espacio de Igualdad Berta Cáceres forma parte de la red de Espacios de Igualdad del Ayuntamiento de Madrid, servicio público orientado a concienciar sobre la necesidad de construir y generar una sociedad en igualdad con la participación de mujeres y hombres, impulsando el empoderamiento de las mujeres para lograr una posición de equidad social.",
+        "ACCESIBILIDAD": 1,
+        "NOMBRE": "Espacio de Igualdad Berta Cáceres",
+        "NOMBRE-VIA": "GRAN AVENIDA",
+        "COORDENADA-X": 439703,
+        "COORDENADA-Y": 4468958,
+        "TIPO-NUM": "V",
+        "DESCRIPCION": "Accesibilidad total.  Acceso:            - Derivado de Centros de Servicios Sociales, asociaciones y cualquier recurso municipal           - Directamente Beneficiarias:  -  Mujeres  - Público en general en actividades abiertas (conferencias, debates, etc...)",
+        "PROVINCIA": "MADRID",
+        "EQUIPAMIENTO": "Escuela de empoderamiento con servicios de atención individual a mujeres en el area psicológica, jurídica y desarrollo profesional. Actividades y talleres grupales dirigidos a mujeres. Escuela de igualdad con actividades y talleres dirigidos a toda la ciudadanía, a profesionales y entidades para formar, concienciar, sensibilizar e irradiar la transformación de la cultura de desigualdad. Disponibilidad de aulas para talleres y/o actividades (sujeto a la disponibilidad en función de la programación del Espacio de Igualdad). Página Facebook del Espacio de Igualdad Berta Cáceres. Perfil Twitter del Espacio de Igualdad Berta Cáceres.",
+        "TELEFONO": "91 480 22 57",
+        "TIPO": "/contenido/entidadesYorganismos/CentrosAtencionSocial",
+        "PLANTA": "",
+        "FIELD31": " ",
+        "DISTRITO": "USERA",
+        "CONTENT-URL": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=6a38fb412e9a2610VgnVCM2000001f4a900aRCRD",
+        "PK": 10679975,
+        "TRANSPORTE": "Bus: 6, 60, 78, 81, 116Tren: Orcasitas",
+        "EMAIL": "bertacaceres3@madrid.es",
+        "FAX": "",
+        "ESCALERAS": "bloque 422",
+        "CODIGO-POSTAL": 28041,
+        "PUERTA": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -3.710212,
+          40.369024
+        ],
+        "type": "Point"
+      },
+      "id": "ee9c5f55bbb97b6da2eedcdecd588561"
+    }
+  ],
+  "type": "FeatureCollection"
+}
