@@ -1,13 +1,13 @@
 package com.novadev.mapboxexample.marker
 
-import android.graphics.Bitmap
-import android.graphics.BitmapFactory
 import android.os.Bundle
+import android.util.Log
+import android.view.View
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.mapbox.mapboxsdk.Mapbox
-import com.mapbox.mapboxsdk.maps.MapView
+import com.mapbox.mapboxsdk.geometry.LatLng
 import com.mapbox.mapboxsdk.maps.MapboxMap
-import com.mapbox.mapboxsdk.maps.OnMapReadyCallback
 import com.mapbox.mapboxsdk.maps.Style
 import com.mapbox.mapboxsdk.style.layers.Property
 import com.mapbox.mapboxsdk.style.layers.PropertyFactory
@@ -31,6 +31,22 @@ class MarkerGeojson : AppCompatActivity() {
         // This contains the MapView in XML and needs to be called after the access token is configured.
         setContentView(R.layout.activity_marker)
         mapView.onCreate(savedInstanceState)
+
+        initListeners()
+        getMap()
+
+
+
+
+    }
+
+    private fun initListeners() {
+        ivClose.setOnClickListener {
+            cvInfo.visibility = View.GONE
+        }
+    }
+
+    private fun getMap() {
         mapView.getMapAsync { mapboxMap ->
             mapboxMap.setStyle(
                 Style.MAPBOX_STREETS
@@ -47,6 +63,31 @@ class MarkerGeojson : AppCompatActivity() {
                     "second-layer-id",
                     "asset://madridoficinascorreos.geojson"
                 )
+
+                mapboxMap.addOnMapClickListener { point ->
+                    val pixel = mapboxMap.projection.toScreenLocation(point)
+                    val features = mapboxMap.queryRenderedFeatures(pixel)
+
+                    // Get the first feature within the list if one exist
+                    if (features.size > 0) {
+                        val feature = features[0]
+
+                        // Ensure the feature has properties defined
+                        for ((key, value) in feature.properties()!!.entrySet()) {
+                            // Log all the properties
+
+                            Log.d("TAG", String.format("%s = %s", key, value))
+                            when(key){
+                                "NOMBRE"-> tvTitleMarker.text = value.toString()
+                                "TELEFONO" -> tvSubtitlemarker.text = value.toString()
+                            }
+
+                            cvInfo.visibility = View.VISIBLE
+
+                        }
+                    }
+                    true
+                }
             }
         }
     }
@@ -61,15 +102,9 @@ class MarkerGeojson : AppCompatActivity() {
                 val source = GeoJsonSource(sourceId, URI(asset_id))
                 style.addSource(source)
                 if (layerId == "first-layer-id") {
-//                    BitmapFactory.decodeResource(resources, R.drawable.ic_location_purple)
                     style.addImage("$layerId marker", this.resources.getDrawable(R.drawable.ic_location_purple))
                 } else {
-//                    BitmapFactory.decodeResource(
-//                        resources,
-//                        R.drawable.ic_location_orange
-//                    )
                     style.addImage("$layerId marker", this.resources.getDrawable(R.drawable.ic_location_orange))
-
                 }
                 val symbolLayer = SymbolLayer(layerId, sourceId)
                 symbolLayer.setProperties(
@@ -120,4 +155,5 @@ class MarkerGeojson : AppCompatActivity() {
         super.onSaveInstanceState(outState)
         mapView!!.onSaveInstanceState(outState)
     }
+
 }
